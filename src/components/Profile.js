@@ -32,7 +32,7 @@ const Profile = () => {
           className="rounded-circle img-thumbnail mx-auto d-block"
           style={{ 
             maxWidth: "400px", 
-            border: "1px solid black",
+            border: "1px #212121",
             boxShadow: "rgba(0, 0, 0, 0.3) 0px 5px 15px" 
           }}
         />

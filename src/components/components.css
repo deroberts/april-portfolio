@@ -10,3 +10,19 @@
 .picture-card {
     background-color: #f5f5f5 !important;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.h-social {
+    display: flex;
+    justify-content: center;
+}
+
+.p-social {
+    display: flex;
+    justify-content: center;
+}

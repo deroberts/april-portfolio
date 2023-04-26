@@ -54,7 +54,7 @@ function Navbar(props) {
 
       <Nav.Item>
         <Nav.Link as={Link} to="/" eventKey="/" onClick={handleHomeClick}>
-          <FontAwesomeIcon icon={faHome} size="1.5x" />
+          <FontAwesomeIcon icon={faHome} size="lg" />
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
@@ -75,9 +75,10 @@ function Navbar(props) {
           Resume
         </Nav.Link>
       </Nav.Item>
-      <Nav.Item>
+      {/* coming soon. Had some wonky webpackage issues */}
+      {/* <Nav.Item>
         <Nav.Link as={Link} to="/contact" eventKey="/contact">Contact</Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
     </Nav>
   </section>
   );
